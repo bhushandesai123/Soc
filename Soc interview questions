@@ -1,0 +1,50 @@
+Bhu:
+How do you identify a phishing email?
+By checking sender domain, suspicious links, urgent language, attachments, and header 
+anomalies.
+
+Urgent Language = subject line 
+Words like "immediate action required," "account suspension," or "limited time offer"
+create panic to bypass caution.
+
+Attachments
+Unexpected files, especially .exe, .zip, or macros-enabled docs, may contain malware—scan
+or avoid opening
+
+Header Anomalies
+Mismatched sender domains instead of@accenture @acccenture.com , unusual IP origins
+(e.g., foreign servers for local banks), or spoofed "From" fields visible in email headers.
+What do you check in email headers?
+
+Return-Path, Received chain, SPF/DKIM/DMARC results mstoolbox madhe shodhata yet ,
+sender IP, and domain mismatch.
+रिटर्न पाथ (Return-Path)
+ईमेल डिलिव्हर न झाल्यास बाऊन्स मेसेज कुठे पाठवायचे हे सांगणारा हेडर; फसवणूक असल्यास तो संशयास्पद असू शकतो. 
+
+रिटर्न पाथ कसे तपासावे
+Gmail मध्ये: ईमेल उघडा > तीन बिंदू (⋮) वर क्लिक > "Show original" निवडा > नवीन टॅबमध्ये "Return-Path"
+शोधा. Outlook मध्ये: ईमेलवर राइट-क्लिक > "View message source".
+
+रिसीव्ह्ड चेन कसे तपासावे
+तेच "Show original" किंवा "View source" मध्ये "Received:" लाइन शोधा – ईमेलची सर्व्हरची यादी दिसेल, वरच्या IP पहिल्या असतात.
+
+�रिसीव्ह्ड चेन (Received Chain)
+ईमेल कुठून-कुठून पाठवले गेले याची यादी; प्रत्येक स्टेपमधील आयपी आणि सर्व्हर तपासून खरा मिळालेला का नाही ते ओळखा.
+
+Spf/dkim/dmarc kase check karave
+ईमेल हेडरमध्ये (Gmail: ⋮ > Show original) "Authentication-Results" हेडर शोधा – तिथे spf=pass/fail,
+dkim=pass/fail, dmarc=pass/fail असे रिझल्ट दिसतात.
+Mstoolbox 
+कसे करावे:
+mxtoolbox.com वर जा > Domain name टाका (जसे bankofindia.com) > SPF/DKIM/DMARC लिंक क्लिक
+करा – पास/फेल रिझल्ट लगेच दिसतात. ईमेल विश्लेषणासाठी Email Deliverability Test करा.
+
+What is difference between URL and domain 
+Domain- core address part like example.com. Means identify the owner 
+URL: Full web address including protocol https://example.com/login/fake,"
+
+Credential Harvesting Links
+Links directing to fake login pages mimicking trusted sites 
+(e.g., bank or email portals) to steal usernames and passwords
+
+
