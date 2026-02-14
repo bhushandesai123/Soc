@@ -1,0 +1,215 @@
+IDS stands for Intrusion Detection System. It monitors network or system traffic and generates alerts when it detects suspicious or malicious activity, but it does not block the traffic. 
+
+IPS stands for Intrusion Prevention System. It not only detects malicious activity but also actively blocks or prevents the attack in real time since it is deployed inline with the traffic.”
+
+Proxy server 
+
+- Gateway between users and internet.
+- helps attackers from entering private network 
+- refferal as intermediary server because it goes between user and web pages 
+- scans on traffic on port 80,443
+-  works on layer 3 and above 
+-
+
+Forward Proxy
+-  असा server जो internal users चा internet traffic control, monitor आणि filter करतो.
+- Internal user ची request आधी proxy कडे जाते
+-  Proxy ती request internet वर forward करतो
+-  Logs तयार होतात (URL, IP, user activity)
+-  Suspicious sites block करता येतात
+
+What is a Protocol?
+
+A protocol is a set of rules that define how data is transmitted and communicated between devices over a network.
+
+HTTP / HTTPS → Used for web communication
+TCP → Ensures reliable data delivery
+UDP → Faster but no guarantee of delivery
+FTP → Used for file transfer
+SMTP → Used for sending emails
+
+-  While transferring file via mail There are 2 protocols 1 is SMTP other is ftp
+-  to avoid conflict we use port 25 for SMTP and 20 for ftp
+-
+
+HTTPS secures communication between the client and server by using SSL/TLS encryption. It encrypts the data before transmission so that even if an attacker intercepts the traffic, they cannot read or modify the information.”
+
+How it works (Simple Explanation):
+
+1️⃣ Client sends request to server (HTTPS)
+2️⃣ Server sends its SSL/TLS certificate
+3️⃣ Secure session key is generated
+4️⃣ Data is encrypted before transmission
+5️⃣ Only the intended server can decrypt it
+
+Https ensures cia triad
+
+Difference Between HTTPS and TLS
+🔹 TLS (Transport Layer Security)
+TLS is a cryptographic protocol.
+It provides encryption, integrity, and authentication.
+It can secure different protocols (HTTPS, FTPS, SMTPS, etc.).
+Works at the transport layer.
+👉 TLS = Security technology (encryption mechanism)
+
+HTTPS (HyperText Transfer Protocol Secure)
+HTTPS is HTTP + TLS.
+It is used specifically for secure web communication.
+It runs over port 443.
+Used in websites to protect user data.
+👉 HTTPS = Application protocol that uses TLS for security
+
+Firewall is for ip
+
+And
+Proxy for url
+
+Ip 3 website
+virustotal
+Ipvoids
+
+Url 3 websites
+
+जसा server हा computer असतो,
+तसाच firewall हा network traffic control करणारा security device / software असतो.
+
+Technical Meaning:
+Firewall incoming आणि outgoing traffic check करतो आणि rules नुसार allow किंवा block करतो.
+उदा:
+Port 22 (SSH) फक्त admin IP साठी allow
+Port 80/443 public साठी allow
+बाकी सर्व block
+
+firewall is a network security device that controls incoming and outgoing traffic based on predefined rules.”
+
+🔥 MUST-KNOW TOPICS FOR SOC INTERVIEW
+1️⃣ Networking Basics (Very Important)
+You must know clearly:
+TCP vs UDP
+OSI Model (at least 7 layers basic idea)
+Common Ports (Very Important 🔥)
+
+80 – HTTP
+443 – HTTPS
+22 – SSH
+21 – FTP
+25 – SMTP
+3389 – RDP
+
+Security Basics
+
+CIA Triad (Confidentiality, Integrity, Availability)
+
+What is Firewall
+
+IDS vs IPS
+
+SIEM क्या है
+
+VPN क्या है
+
+Proxy (Forward & Reverse)
+
+NAT
+
+3️⃣ Logs & Monitoring (Very Important 🔥🔥)
+
+What are logs?
+
+Windows Event Logs basics
+
+Linux logs (/var/log)
+
+Firewall logs
+
+How to investigate suspicious login
+
+4️⃣ Attack Types
+
+Phishing
+
+Brute Force
+
+DDoS
+
+SQL Injection
+
+Malware
+
+Ransomware
+
+5️⃣ SOC Process Knowledge
+
+What is Incident Response?
+
+What is Alert Triage?
+
+What is False Positive?
+
+Escalation process
+
+Difference Between TCP and UDP
+🔹 TCP (Transmission Control Protocol)
+Connection-oriented
+Reliable (guarantees delivery)
+Data comes in correct order
+Error checking and retransmission
+Slower than UDP
+
+📌 Used in:
+HTTP / HTTPS ,FTP ,Email ,SSH
+
+UDP (User Datagram Protocol)
+Connectionless
+No guarantee of delivery
+No ordering of packets
+No retransmission
+Faster than TCP
+
+📌 Used in:
+Video streaming
+Online gaming
+VoIP
+DNS
+
+7 OSI Layers (Top to Bottom)
+7️⃣ Application Layer
+
+User interacts here
+
+Protocols: HTTP, FTP, SMTP, DNS
+👉 Example: Opening a website
+
+6️⃣ Presentation Layer
+
+Encryption / Decryption
+
+Data formatting
+👉 Example: HTTPS encryption
+
+5️⃣ Session Layer
+
+Establishes and manages sessions
+👉 Example: Login session
+Transport Layer
+
+End-to-end communication
+
+TCP / UDP
+👉 Ensures data delivery
+
+3️⃣ Network Layer
+
+IP addressing and routing
+👉 Routers work here
+
+2️⃣ Data Link Layer
+
+MAC address
+
+Switch works here
+
+1️⃣ Physical Layer
+
+Cables, signals, hardware
+👉 Actual data transmission
