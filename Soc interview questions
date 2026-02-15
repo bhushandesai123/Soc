@@ -1,4 +1,4 @@
-Bhu:
+jiBhu:
 How do you identify a phishing email?
 By checking sender domain, suspicious links, urgent language, attachments, and header 
 anomalies.
@@ -38,6 +38,15 @@ Mstoolbox
 कसे करावे:
 mxtoolbox.com वर जा > Domain name टाका (जसे bankofindia.com) > SPF/DKIM/DMARC लिंक क्लिक
 करा – पास/फेल रिझल्ट लगेच दिसतात. ईमेल विश्लेषणासाठी Email Deliverability Test करा.
+SPF (Sender Policy Framework)SPF verifies if the sending mail server IP is authorized 
+             for the domain via DNS TXT record.�
+Example: v=spf1 ip4:192.0.2.0/24 -all blocks unauthorized servers
+.DKIM (DomainKeys Identified Mail)DKIM adds cryptographic signature to email headers
+            proving authenticity and integrity.�
+Example: Receiving server checks signature matches sender's public key in DNS.
+DMARC (Domain-based Message Authentication, Reporting & Conformance)DMARC combines 
+SPF+DKIM results with policy (none/quarantine/reject) for failed emails.�
+Example: v=DMARC1; p=reject; rua=mailto:reports@domain.com rejects fakes, sends reports.
 
 What is difference between URL and domain 
 Domain- core address part like example.com. Means identify the owner 
