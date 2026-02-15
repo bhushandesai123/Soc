@@ -1,4 +1,3 @@
-jiBhu:
 How do you identify a phishing email?
 By checking sender domain, suspicious links, urgent language, attachments, and header 
 anomalies.
@@ -56,4 +55,6 @@ Credential Harvesting Links
 Links directing to fake login pages mimicking trusted sites 
 (e.g., bank or email portals) to steal usernames and passwords
 
+Spear phishing vs phishing?
+Phishing is mass attack; spear phishing is targeted and personalized.
 
