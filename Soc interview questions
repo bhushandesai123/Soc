@@ -1,3 +1,32 @@
+https://youtu.be/5g3gFfV2g1s?si=iGrWaahWmkm77UfU
+what is soc
+
+what is difference between soc and noc
+noc is about network routes , switches ,if it doesn't work 
+
+what soc contribute to cyber security 
+if we rely on proxy firewalls hacker can bypass them so we can't completely tely on them
+
+what is incident response 
+we get the alerts and deliver to incident response team
+
+https://youtu.be/8dftO6x8O8Q?si=CmFXMsWuZGO_lemL
+what is your day to day roles
+monitoring and detecting alerts if it is malware escalate to 
+
+what is architecture of splunk?
+Splunk's architecture is a distributed system designed for collecting, indexing, 
+searching, and analyzing large volumes of machine-generated data, especially logs
+in SOC environments.
+forwarder 
+gather logs from servers, apps, or networks.��
+Indexers: Receive data, parse it into searchable events, store in repositories
+Search Heads: User interface for running queries (SPL language), generating reports/dashboards, 
+SOC interview, mention that Splunk (or SIEM tools) generally ingests logs from
+network devices, servers/endpoints, security appliances, applications, and cloud services
+
+
+
 How do you identify a phishing email?
 By checking sender domain, suspicious links, urgent language, attachments, and header 
 anomalies.
