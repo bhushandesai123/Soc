@@ -63,4 +63,17 @@ It's a cybercrime where attackers impersonate executives, vendors, or trusted
 contacts via spoofed emails to trick employees into authorizing wire transfers, 
 sharing sensitive data
 
+SOC मधील BEC म्हणजे व्यवसाय ईमेल फसवणूक (Business Email Compromise). हल्लेखोर CEO किंवा
+विक्रेत्याचा ईमेल बनावून कर्मचाऱ्यांना पैसे हस्तांतरित किंवा गोपनीय माहिती देण्यास फसवतात
+attackers get information about the senior targeted employee and spoof email and in 
+this way attackers trick user by sending the emails 
+
+How attackers bypass email filters?
+Using lookalike domains, URL shorteners, encrypted attachments, and social engineering.
+Email filters are automated systems in email services like Gmail or Outlook that scan
+incoming messages to detect and block spam, phishing, or malicious content based on rules
+
+
+
+
 
