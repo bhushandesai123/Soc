@@ -26,7 +26,18 @@ malware,brute force, phishing,ransomware, ddos
 
 what is botnet
 botnet is ddos  , attacker attacks so website become unavailable for some time 
-
+botnet is a network of compromised computers or devices infected by malware and
+remotely controlled by a hacker without the owners' knowledge, often used for
+DDoS attacks, spam distribution, or data theft.�
+English ExamplesMirai Botnet (2016): IoT डिव्हाइसेस (जसे CCTV कॅमेरा, राउटर्स) ला इन्फेक्ट करून
+Dyn DNS कंपनीवर इतका मोठा DDoS हल्ला केला की Twitter, Netflix सारख्या वेबसाइट्स US मध्ये बंद पडल्या.
+��Zeus Botnet: बँकिंग ट्रोजनने लाखो संगणकांना कंट्रोल करून बँक खात्यांची माहिती चोरली, $100 मिलियन+ नुकसान.��
+बॉटनेट अटॅक कसा होतो? (प्रक्रिया)हॅकर असा अटॅक करतो:इन्फेक्शन (संसर्ग): फिशिंग ईमेल, फेक अॅप डाउनलोड किंवा 
+इन्फेक्टेड वेबसाइटवरून मालवेअर (ट्रोजन) पाठवतात. डिव्हाइस गुपचूप इन्फेक्ट होतो, युजरला कळत नाही.
+कंट्रोल सर्व्हर (C&C): इन्फेक्टेड डिव्हाइसेस ("बॉट्स" किंवा "झॉम्बी") हॅकरच्या कमांड अँड कंट्रोल सर्व्हरशी कनेक्ट होतात.
+हॅकर यांना गुप्त कमांड पाठवू शकतो.बॉटनेट तयार होणे: हजारो-लाखो बॉट्स एकत्र नेटवर्क बनवतात. हॅकर एका ठिकाणाहून
+सगळ्यांना कंट्रोल करतो.अटॅक कमांड: हॅकर कमांड देतो—उदा. DDoS साठी लक्ष्य साइटवर ट्रॅफिक भर भरा, स्पॅम पाठवा किंवा 
+डेटा चोर.अटॅक होतो: बॉट्स एकत्र लक्ष्यावर हल्ला करतात. लक्ष्य क्रॅश होते, पण बॉट ओनरला काही दिसत नाही
 
 
 
