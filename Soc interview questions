@@ -83,6 +83,10 @@ how networking works?
 Networking refers to the process of connecting computers, devices, and systems to 
 share resources, data, and applications over wired or wireless mediums.
 
+does software also involve in networking
+software is essential in networking—it runs protocols like TCP/IP and manages data
+flow.Examples include VPN clients and firewalls that control secure connections over hardware.��
+
 
 
 what is architecture of splunk?
