@@ -39,8 +39,15 @@ Dyn DNS कंपनीवर इतका मोठा DDoS हल्ला क
 सगळ्यांना कंट्रोल करतो.अटॅक कमांड: हॅकर कमांड देतो—उदा. DDoS साठी लक्ष्य साइटवर ट्रॅफिक भर भरा, स्पॅम पाठवा किंवा 
 डेटा चोर.अटॅक होतो: बॉट्स एकत्र लक्ष्यावर हल्ला करतात. लक्ष्य क्रॅश होते, पण बॉट ओनरला काही दिसत नाही
 
+what is ransomware?
+Ransomware म्हणजे काय? (सोप्या भाषेत)परिभाषा:Ransomware हे malware आहे जे तुमच्या files encrypt 
+(लॉक) करते आणि पैसे मागते unlock करण्यासाठी.
+Ransomware is malicious software that encrypts files or locks systems,
+demanding payment for access restoration.
 
-
+Cryptocurrency hijacking,
+commonly known as cryptojacking, is a cyberattack where hackers secretly use your
+device's CPU/GPU to mine cryptocurrency without your permission.
 
 
 what is architecture of splunk?
