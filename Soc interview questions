@@ -49,6 +49,24 @@ Cryptocurrency hijacking,
 commonly known as cryptojacking, is a cyberattack where hackers secretly use your
 device's CPU/GPU to mine cryptocurrency without your permission.
 
+elements of cyber security 
+information security , network security, application security 
+
+dns
+domain name system convert domain into ip
+
+firewall 
+is network security device which monitor flow of traffic based on predefined rules 
+
+firewall monitor the traffic but how?
+based upon rules we configure rules upon firewall 
+
+explain routing
+proceds of deciding flow of packet from one network to another network 
+
+
+
+
 
 what is architecture of splunk?
 Splunk's architecture is a distributed system designed for collecting, indexing, 
