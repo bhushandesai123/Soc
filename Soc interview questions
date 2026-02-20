@@ -64,7 +64,20 @@ based upon rules we configure rules upon firewall
 explain routing
 proceds of deciding flow of packet from one network to another network 
 
+routing table 
+routing table is a router's that directs data packets to their destination
+using the best available path.
 
+router checks its destination IP against table entries. It finds the most specific 
+match (longest prefix) and forwards via the listed next hop or interface
+
+vpn
+Virtual Private Network, is a service that creates a secure, encrypted connection 
+over the public internet, protecting your online privacy and data
+VPN masks your real IP address by routing your internet traffic through its remote server, 
+create tunnel between our device and vpn servers
+
+where u have used vpn in ur last company 
 
 
 
