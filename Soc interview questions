@@ -106,6 +106,58 @@ top 10 vulnerability
 
 how can someone use owadp for his app
 
+what is incident management 
+identify the threat ,containment of host ,
+
+difference between events and incident?
+event. trying login in multiple times
+become incident when we know it is happening from outside the organisation and 
+confirm it is brute force
+
+man in the middle attack?
+when data travel from one device to another device i change it via dns spoofing or 
+arn spoofing
+
+what is spoofing 
+
+what excites u in work
+no 2 days are same ,
+
+if no alerts how will you tackle
+ it is scary position no alert means something has been misconfigured we need to 
+investigate further 
+
+in my company fortunately this not happened like no alerts in day
+
+if no alerts u found how would you tackle
+i would not wait for 8 hrs but if i understand that i am not getting alerts in 2 hrs 
+how much should I get then i would escalate to it department 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 what is architecture of splunk?
