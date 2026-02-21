@@ -156,6 +156,15 @@ networks using IP addresses and routing tables.�
 routing table 
 router decides best path for routing with the help of routing table 
 
+Firewall in SOC (Definition - English):
+Firewall monitors inbound/outbound traffic, blocks unauthorized access using rules 
+(ports, IPs, protocols).� also prevents malicious software 
+
+as a l1 soc should I add rules in firewall 
+का नाही (Concept - Marathi):
+L1: अलर्ट तपासणे, नोट्स लिहिणे, L2 ला escalate करणे. Firewall rules L2/L3 किंवा NetSec team चे 
+काम (config change risk).��
+
 
 
 
