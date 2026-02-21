@@ -149,6 +149,14 @@ SOC Analyst म्हणून मुख्य दस्तऐवज तया�
 स्टेटस, रिझॉल्यूशन स्टेप्स.�Alert Triage Notes - SIEM/EDR लॉग्स, IOCs, टाइमलाइन सारांश.Daily Shift
 Logs - हाय रिस्क अलर्ट्स, थ्रेट इंडेल अपडेट्स.Escalation Tickets - L2/L3 साठी handover सारांश.�
 
+what is routing and goal of routing?
+Routing selects optimal paths for data packets from source to destination across
+networks using IP addresses and routing tables.�
+
+routing table 
+router decides best path for routing with the help of routing table 
+
+
 
 
 
