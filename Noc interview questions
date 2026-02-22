@@ -1,0 +1,51 @@
+Networking Basics (1-10)NOC चे मुख्य कार्य काय?
+नेटवर्क मॉनिटरिंग, troubleshooting आणि 99.9% uptime सुनिश्चित करणे.L1, L2, L3 NOC roles मधील फरक?
+L1: Basic monitoring/escalation; L2: Intermediate troubleshooting; L3: Root cause/config changes.TCP vs UDP?
+TCP: Reliable, connection-oriented; UDP: Fast, connectionless.Switch vs Router?
+Switch: L2, same network devices connect; Router: L3, different networks join.IP address चा classful division काय?
+Class A: 1-126, B: 128-191, C: 192-223.Subnet mask काय?
+Network आणि host portion वेगळे करते, उदा. 255.255.255.0 /24.Ping command ने काय तपासतो?
+Host reachability आणि RTT (Round Trip Time).Traceroute चा उपयोग?
+Packet path trace करतो, hops identify करतो.OSI model 7 layers?
+Physical, Data Link, Network, Transport, Session, Presentation, Application.Routing table म्हणजे काय?
+Destination IP साठी next-hop paths store करते.Protocols & Services (11-20)DNS role?
+Domain name ला IP resolve करते.DHCP ने काय करते?
+Dynamic IP addresses assign करते clients ला.HTTP vs HTTPS?
+HTTP: Unencrypted port 80; HTTPS: SSL/TLS encrypted port 443.BGP म्हणजे?
+External routing protocol for internet AS paths.OSPF features?
+Link-state, fast convergence, area-based internal routing.ARP protocol?
+IP address ला MAC address map करते.SNMP versions?
+v1: Basic, v2c: Bulk data, v3: Secure authentication.Telnet vs SSH?
+Telnet: Unencrypted; SSH: Encrypted remote access.NTP service?
+Network time synchronization servers साठी.SMTP port?
+25 (email sending).Monitoring & Tools (21-30)SolarWinds ने काय monitor करते?
+Network performance, bandwidth, device health.Nagios alerts कसे configure करावे?
+Thresholds set करा (CPU>80%, latency>100ms).Wireshark use?
+Packet capture/analysis for troubleshooting.PRTG tool?
+Sensor-based network monitoring with dashboards.NetFlow analyzer?
+Traffic flow data analysis for top talkers.Zabbix features?
+Agentless monitoring, auto-discovery, alerting.Ticketing tool?
+ServiceNow/Jira for incident tracking/escalation.Syslog levels?
+0-Emergency to 7-Debug.Grafana role?
+Time-series visualization for metrics.Prometheus?
+Monitoring + alerting for cloud-native apps.Troubleshooting (31-40)High latency troubleshoot steps?
+Ping RTT check → Traceroute → Switch CPU utilization.Server down झाल्यास पहिले step?
+Ping test → Power/hardware check → Logs review.Packet loss कारणे?
+Congestion, faulty cable, MTU mismatch.No connectivity case?
+Physical layer → IP config → Firewall rules check.Intermittent issues?
+Duplex mismatch, STP loops, intermittent links.BGP neighbor down?
+Check ACLs, TTL, passwords, peering config.VLAN trunking issue?
+Allowed VLANs verify → Native VLAN mismatch.DNS resolution fail?
+nslookup → Forwarders → Cache clear.High CPU router?
+Control plane policing → Top processes identify.Bandwidth saturation?
+NetFlow top talkers → QoS apply.NOC Processes & Security (41-50)Incident escalation process?
+L1→L2 (30min)→L3 (1hr), severity-based.SLA म्हणजे?
+Service Level Agreement for uptime/response times.Change management?
+CAB approval → Test → Rollback plan.Firewall role in NOC?
+Traffic filtering logs monitor, block suspicious IPs.Backup verification?
+Weekly restore test → Offsite storage.Capacity planning?
+Historical trends analyze → Threshold alerts.Shift handover?
+Open tickets, ongoing incidents, critical alerts summary.Root Cause Analysis tool?
+5 Whys, Fishbone diagram.Disaster Recovery steps?
+RTO/RPO define → Failover test → Documentation.NOC metrics?
+MTTR (Mean Time To Resolve), Uptime %, Ticket resolution rate.��
