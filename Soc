@@ -1,3 +1,20 @@
+Router: "Internet Gateway"
+• Connects LAN → Internet/WAN
+• IP addresses use करतो (Layer 3)
+• NAT, Firewall, Internet routing
+• Example: Office → ISP connection
+
+Switch: "Internal Connector"  
+• PCs, printers, servers जोडतो (same network)
+• MAC addresses use करतो (Layer 2)
+• Fast internal traffic
+• Example: Office floor PCs connect
+
+Real Company Flow:
+Internet → Router → Switch → PCs/Printers
+
+1 Router + Multiple Switches = Office Network
+
 IDS stands for Intrusion Detection System. It monitors network or system traffic and generates alerts when it detects suspicious or malicious activity, but it does not block the traffic. 
 
 IPS stands for Intrusion Prevention System. It not only detects malicious activity but also actively blocks or prevents the attack in real time since it is deployed inline with the traffic.”
