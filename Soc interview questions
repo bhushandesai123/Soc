@@ -6,7 +6,15 @@ l3 proactive threat hunting
 very good explanation - he told about tools also
 splunk edr
 ticketing tools svcnow 
-framework -nist,
+framework -nist,sins for incident management 
+
+noc and soc
+noc is network related things , slow network, router not working, switch rebooting 
+-  main part is upgrading routers , switches ,,    making diwn maintenance windows 
+
+soc malware analysis -->  brute force attack, ransomware,ddos,
+
+ 
 
 
 
