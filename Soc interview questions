@@ -170,7 +170,7 @@ routers ,hubs ,switches,
 
 difference between virus and trozens
                 virus.                  trozen
-            self replicates.      standalone malware
+            self replicates.      standalone malware,disguised as legitimate software
 spread via  email,usb ,infected       download 
 purpose.    delete/corrupt.           steal data
 remote      no.                       possible 
@@ -179,7 +179,9 @@ control
 detection.  signature based. av   behaviour based
 harm.       high.                  depends
 
+what is edr
 
+edr tools
 
 
 
