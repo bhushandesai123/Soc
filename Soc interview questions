@@ -1,3 +1,22 @@
+what is cia and how availability can achieve 
+ddod attack. attack come from different geolocations so distributed 
+ransomware wanna cry
+for achieving high availability we can take backups , keep autoscale 
+
+how 3 way handshake mechanism in tcp happened?
+first client sends syn flag to server to check server is ready with sequence number 
+syn and acknowledge number ack then server sends syn packet to client then client again
+sends syn and ack packets to server this os 3 way handshake mechanism
+
+what are other flags than syn and ack?
+reset flag,fin flag, urgent flag 
+
+
+
+
+
+------
+
 https://youtu.be/5g3gFfV2g1s?si=vZMFS6mY3stAYmGj
 what is soc
 L1 alert triage and monitor 
