@@ -11,13 +11,26 @@ sends syn and ack packets to server this os 3 way handshake mechanism
 what are other flags than syn and ack?
 reset flag,fin flag, urgent flag 
 
+what is tcp retransmission?
+client sends sequence number and acknowledgement number but sometimes recipient don't 
+send back acknowledgement due to poor connection, slow connection ,packet drop so 
+sender try to send packets again and again.
+urgent flag indicates urgency 
+tcp layer 4 
+in that 2 section data ,header in header section sequence number and acknowledge 
+number ,if sequence number is 10000, acknowledgement number is 10001
+
+
+
+
+
 
 
 
 
 ------
 
-https://youtu.be/5g3gFfV2g1s?si=vZMFS6mY3stAYmGj
+https://youtu.be/5 cg3gFfV2g1s?si=vZMFS6mY3stAYmGj
 what is soc
 L1 alert triage and monitor 
 l2 incident response and deep investigation 
