@@ -1,6 +1,6 @@
 https://youtu.be/VPN4d7OtyWg?si=UpJVXG7gwEWBbpjV
 in ddos attack what happens is in 3 way handshake mechanism when syn flag comes from
-server then 
+server then syn + ack will be sent to server but syn and ack will not be sent to 
 
 ----------------------------------------------------------------------------------------
 
