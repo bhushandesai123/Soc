@@ -20,6 +20,10 @@ tcp layer 4
 in that 2 section data ,header in header section sequence number and acknowledge 
 number ,if sequence number is 10000, acknowledgement number is 10001
 
+how did you used cia in ur last project?
+c for confidentiality i had access control in my last organisation like octa, identity 
+access management ,mccafe encryption 
+for integrity --> i have worked with os-sec, trip wite as well 
 
 
 
