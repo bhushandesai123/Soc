@@ -1,6 +1,17 @@
+man in middle attack 
+https://youtu.be/5jger97cl8Y?si=JwciCgBmBruIV67p
+man in the middle attack intercepts the data ,reads the data or modify data
+
+--------------------------------------------------------------------+-+++--------
 https://youtu.be/VPN4d7OtyWg?si=UpJVXG7gwEWBbpjV
 in ddos attack what happens is in 3 way handshake mechanism when syn flag comes from
 server then syn + ack will be sent to server but syn and ack will not be sent to 
+
+how will you avoid ddos
+firewalls,cloudflare
+----------------------++++---------------------------------------------+++++++++------
+
+
 
 ----------------------------------------------------------------------------------------
 
