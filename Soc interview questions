@@ -7,6 +7,9 @@ destination ip address , attacker send forged ar address to sender or user
 machine does not know whether this particular is google.com but it communicate with 
 ip address so attackers pretend it is a legitimate website 
 
+solution 
+to use https, to use authentication aes 256
+
 
 
 --------------------------------------------------------------------+-+++--------
