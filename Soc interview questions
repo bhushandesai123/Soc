@@ -1,6 +1,13 @@
 man in middle attack 
 https://youtu.be/5jger97cl8Y?si=JwciCgBmBruIV67p
-man in the middle attack intercepts the data ,reads the data or modify data
+man in the middle attack intercepts the data ,reads the data or modify data in between 
+man in the middle attack happens with the dns spoofing/ ar spoofing 
+ar protocol --> address resolution protocol --> mapping between destination mac to 
+destination ip address , attacker send forged ar address to sender or user 
+machine does not know whether this particular is google.com but it communicate with 
+ip address so attackers pretend it is a legitimate website 
+
+
 
 --------------------------------------------------------------------+-+++--------
 https://youtu.be/VPN4d7OtyWg?si=UpJVXG7gwEWBbpjV
