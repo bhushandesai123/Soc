@@ -1,7 +1,14 @@
+https://youtu.be/yK4UpESdR-A?si=r6kZazPuXKrVS_oX
+
+
+------------------------------------------------------------------------------------
+
 stateful inspection 
 router --> stateless 
 firewall ---> stateful
-firewall checks only those packets which 
+every entry goes through the firewall --> entry consist of tcp , syn flag
+firewall checks only those packets which goes through firewall 
+all next generation firewall consists of stateful firewall 
 
 
 -------------------------------------------------------------------------------------
