@@ -1,3 +1,17 @@
+stateful inspection 
+router --> stateless 
+firewall ---> stateful
+firewall checks only those packets which 
+
+
+-------------------------------------------------------------------------------------
+https://youtu.be/VzRyHUZJw2s?si=ODqDc7slICnD-qsu
+port scanning 
+nmap port upon which u want to do send the probe
+nmap -p port number 
+or nmap target_ip address 
+
+-------------------------------------------------------------------------------------
 man in middle attack 
 https://youtu.be/5jger97cl8Y?si=JwciCgBmBruIV67p
 man in the middle attack intercepts the data ,reads the data or modify data in between 
@@ -10,8 +24,7 @@ ip address so attackers pretend it is a legitimate website
 solution 
 to use https, to use authentication aes 256
 
-
-
+what is white, black,gray?
 --------------------------------------------------------------------+-+++--------
 https://youtu.be/VPN4d7OtyWg?si=UpJVXG7gwEWBbpjV
 in ddos attack what happens is in 3 way handshake mechanism when syn flag comes from
