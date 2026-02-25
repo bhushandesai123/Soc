@@ -1,4 +1,30 @@
 
+https://youtu.be/Yy38v1mKHCk?si=1hc6jYvKDvyR2wbP
+splunk experience 
+index=* event code=4265 is a basic search query, not a correlation rule. 
+Correlation rules in Splunk ES aggregate and analyze patterns across multiple events 
+over time.
+
+correlation rule:-->
+
+Brute-Force Failed Logins RuleThis Splunk ES correlation search runs every 
+5 minutes, scanning Windows authentication events (EventCode=4625) over the prior 15 minutes:
+
+| tstats `summariesonly` count from datamodel=Authentication.Authentication where 
+  Authentication.action=failure by Authentication.src_ip, Authentication.user span=1m
+| `drop_dm_object_name("Authentication")`
+| stats sum(count) as fail_count, dc(user) as unique_users by src_ip
+| where fail_count >= 10
+| eval notable="Brute force attempt from ".src_ip." (".$fail_count." fails across 
+  ".$unique_users." users)"
+
+
+
+
+
+
+
+-----------------------++----------------------------------------------++-----------------------
 indicator of compromise 
 malware , ip'
 -----------------------++----------------------------------------------++-----------------------
