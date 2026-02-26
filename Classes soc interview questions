@@ -1,1 +1,27 @@
+How do you respond to a phishing attack?
+Answer:
+• Analyze the email headers and links using tools like VirusTotal, URLScan, and IPVoid.
+ईमेल हेडर्स कसे पहावेतआउटलुकमध्ये File > Properties किंवा Gmail मध्ये Show original वर क्लिक करा. 
+ "Received" लाईन्स खालून वरच्या दिशेने IP शोधा, From फील्ड स्पूफ झाली का तपासा.�VirusTotal ने स्कॅन करा
+  virustotal.com वर संशयित URL, IP किंवा अटॅचमेंट पेस्ट करा. अँटिव्हायरस स्कोअर पहा – जास्त डिटेक्शन असल्यास 
+  मालवेअर आहे.�URLScan.io वापराurlscan.io वर लिंक सबमिट करा. स्क्रीनशॉट, DOM, नेटवर्क कनेक्शन्स दिसतील
+  – रिडायरेक्ट्स पकडता येतील, क्लिक न करता.�IPVoid ने IP चेक कराIPVoid.com वर IP टाका. 
+  ब्लॅकलिस्ट, लोकेशन, अब्यूज हिस्ट्री मिळेल. MX Toolbox ने डोमेन वैलिड करा.�
 
+• Check sender reputation and email anomalies.
+- सेंडर रिप्युटेशन कसे तपासावे --> स्पूफ email केलेला का ते emailrep.io किंवा hunter.io वर चेक करा --> 
+- SPF, DKIM, DMARC पास झाले का हेडर्समध्ये पहा
+- जेनेरिक ग्रीटिंग ("प्रिय ग्राहक"), स्पेलिंग चुका, तात्काळ कारवाईची subject line 
+- ईमेल क्वारंटाईन कसे करावे --> ईमेल क्लायंट किंवा मेल सिक्युरिटी सिस्टममध्ये (जसे Exchange किंवा Proofpoint) 
+  "Quarantine" बटण दाबा. --> थ्रेड ब्लॉक --> इतर यूजर्सना रोखा , यूजरला सूचना की ईमेल डिलीट करा आणि 
+  लिंक्स उघडू नयेत
+  रिपोर्टिंग प्रोसेसSOC टिकट तयार करा (ServiceNow/Jira मध्ये).पूर्ण डिटेल्स जोडा: हेडर्स, स्कॅन रिझल्ट्स, स्क्रीनशॉट्स.
+  सिक्युरिटी टीम/IRT (incidence response team) ला escalate is
+  
+  
+
+
+
+• Quarantine the email and report it to security teams.
+• Investigate if any user clicked the link or downloaded malicious files.
+• Educate users on phishing awareness and update email security policies.
