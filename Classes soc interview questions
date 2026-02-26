@@ -19,9 +19,11 @@ Answer:
   सिक्युरिटी टीम/IRT (incidence response team) ला escalate is
   
 • Quarantine the email and report it to security teams.
-- EDR मध्ये क्वारंटाईन ईमेल सर्च करा आणि "Quarantine" किंवा "Hold 
-
-
+- EDR मध्ये क्वारंटाईन ईमेल सर्च करा आणि "Quarantine" किंवा "Hold Mimecast मध्ये क्वारंटाईन 
+  Quarantine सेक्शनमध्ये जा --> Targeted Threat Protection किंवा Quarantine policy edit -->
+  Phishing rule साठी "Quarantine" सिलेक्ट
+  Proofpoint मध्ये क्वारंटाईन --> Proofpoint Essentials किंवा Enterprise--> Quarantine सेक्शनमध्ये 
+  जा --> ईमेल सर्च करा आणि "Quarantine" किंवा "Hold
 
 • Investigate if any user clicked the link or downloaded malicious files.
 • Educate users on phishing awareness and update email security policies.
