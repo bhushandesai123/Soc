@@ -18,10 +18,10 @@ Answer:
   रिपोर्टिंग प्रोसेसSOC टिकट तयार करा (ServiceNow/Jira मध्ये).पूर्ण डिटेल्स जोडा: हेडर्स, स्कॅन रिझल्ट्स, स्क्रीनशॉट्स.
   सिक्युरिटी टीम/IRT (incidence response team) ला escalate is
   
-  
-
-
-
 • Quarantine the email and report it to security teams.
+- EDR मध्ये क्वारंटाईन ईमेल सर्च करा आणि "Quarantine" किंवा "Hold 
+
+
+
 • Investigate if any user clicked the link or downloaded malicious files.
 • Educate users on phishing awareness and update email security policies.
